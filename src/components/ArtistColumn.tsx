@@ -23,6 +23,7 @@ export const ArtistColumn: React.FC<Props> = (props) => {
 					<Link
 						href={artist.href}
 						className="block border-b border-transparent hover:border-white w-max max-lg:mx-auto"
+						key={artist.name}
 					>
 						{artist.name}
 					</Link>
