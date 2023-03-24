@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { Header } from "../components/Header";
 import { HomeTile } from "../components/HomeTile";
+import { Video } from "../components/Video";
 
 const Home = () => {
 	return (
@@ -14,9 +15,7 @@ const Home = () => {
 			<main className="w-2/3 mx-auto">
 				<Header />
 				<div>
-					<div className="relative mx-auto h-[500px] border flex items-center justify-center">
-						placeholder spash video
-					</div>
+					<Video />
 					<div className="flex justify-between my-10 gap-8 max-lg:flex-col">
 						<HomeTile href="/visual">
 							<div>
