@@ -4,7 +4,7 @@ import Link from "next/link";
 
 type Props = {
 	href: string;
-}
+};
 
 export const HomeTile: React.FC<PropsWithChildren<Props>> = ({ children, href }) => {
 	return (

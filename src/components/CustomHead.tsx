@@ -1,15 +1,15 @@
-import Head from 'next/head'
-import { useRouter } from 'next/router';
-import React from 'react'
+import Head from "next/head";
+import { useRouter } from "next/router";
+import React from "react";
 
 const captializeFirstLetter = (s: string) => {
 	return s.charAt(0).toUpperCase() + s.slice(1);
-}
+};
 
 export const CustomHead = () => {
 	const router = useRouter();
 	const path = router.pathname;
-	const title = path === '/' ? 'One/24' : `One/24 - ${captializeFirstLetter(path.slice(1))}`;
+	const title = path === "/" ? "One/24" : `One/24 - ${captializeFirstLetter(path.slice(1))}`;
 
 	return (
 		<Head>
@@ -19,4 +19,4 @@ export const CustomHead = () => {
 			<link rel="icon" href="/favicon.ico" />
 		</Head>
 	);
-}
+};

@@ -1,4 +1,4 @@
-import { ArtistDetails } from "./components/ArtistColumn"
+import { ArtistDetails } from "./components/ArtistColumn";
 
 type Data = {
 	visual: {
@@ -16,7 +16,7 @@ type Data = {
 		pointsOfView: ArtistDetails[];
 		nourishment: ArtistDetails[];
 	};
-}
+};
 
 export const data: Data = {
 	visual: {
@@ -40,7 +40,7 @@ export const data: Data = {
 			{
 				name: "Placeholder Name",
 				href: "#",
-			}
+			},
 		],
 		videoAndFilm: [
 			{
@@ -62,7 +62,7 @@ export const data: Data = {
 			{
 				name: "Placeholder Name",
 				href: "#",
-			}
+			},
 		],
 		paintingAndSculpture: [
 			{
@@ -84,7 +84,7 @@ export const data: Data = {
 			{
 				name: "Placeholder Name",
 				href: "#",
-			}
+			},
 		],
 	},
 	music: {
@@ -108,7 +108,7 @@ export const data: Data = {
 			{
 				name: "Placeholder Name",
 				href: "#",
-			}
+			},
 		],
 		overlookedGems: [
 			{
@@ -130,7 +130,7 @@ export const data: Data = {
 			{
 				name: "Placeholder Name",
 				href: "#",
-			}
+			},
 		],
 		emergingArtists: [
 			{
@@ -152,7 +152,7 @@ export const data: Data = {
 			{
 				name: "Placeholder Name",
 				href: "#",
-			}
+			},
 		],
 	},
 	word: {
@@ -176,7 +176,7 @@ export const data: Data = {
 			{
 				name: "Placeholder Name",
 				href: "#",
-			}
+			},
 		],
 		pointsOfView: [
 			{
@@ -198,7 +198,7 @@ export const data: Data = {
 			{
 				name: "Placeholder Name",
 				href: "#",
-			}
+			},
 		],
 		nourishment: [
 			{
@@ -220,7 +220,7 @@ export const data: Data = {
 			{
 				name: "Placeholder Name",
 				href: "#",
-			}
+			},
 		],
 	},
-}
+};

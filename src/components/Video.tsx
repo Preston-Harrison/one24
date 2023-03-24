@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 export const Video = () => {
 	return (
@@ -6,4 +6,4 @@ export const Video = () => {
 			placeholder spash video
 		</div>
 	);
-}
+};
